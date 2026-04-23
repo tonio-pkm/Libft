@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 14:23:40 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/23 16:10:12 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/23 18:37:47 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,8 +87,8 @@ char	**ft_split(const char *s, char c)
 				word_len = current_len;
 			current_len = 0;
 			words++;
-			while (s[i] == c && s[i + 1] != '\0')
-				i++;
+			while (s[++i] == c)
+				;
 		}
 		else
 			current_len++;
