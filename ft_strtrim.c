@@ -6,11 +6,12 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 12:22:29 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/24 13:37:26 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/23 14:23:15 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stddef.h>
 #include <stdlib.h>
+
 int	can_trim(const char *str, char c)
 {
 	size_t	i;

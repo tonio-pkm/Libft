@@ -1,37 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 16:18:13 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 20:23:21 by antgarci         ###   ########.fr       */
+/*   Created: 2026/04/27 17:48:12 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/27 17:52:48 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
-#include<stdlib.h>
-
-char	*ft_substr(const char *s, unsigned int start, size_t len)
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	size_t	i;
-	char	*substr;
 
-	substr = malloc(len * sizeof(char));
-	if (!substr)
-		return (NULL);
 	i = 0;
-	while (i < len)
-		substr[i++] = s[start++];
-	return (substr);
+	while (s[i])
+		f(i++, s[i]);
 }
-/*
-int	main(void)
-{
-	#include <stdio.h>
-	char	s[] = "123456789";
-
-	printf("%s", ft_substr(s, 3, 4));
-}
-*/

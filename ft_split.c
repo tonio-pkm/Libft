@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 14:23:40 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/23 18:37:47 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/27 19:34:57 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ size_t	strlen(const char *str)
 	return (i);
 }
 
+
+
 char	**mem_alloc(const char *str, size_t words, size_t len, char c)
 {
 	char	**s;
@@ -33,7 +35,18 @@ char	**mem_alloc(const char *str, size_t words, size_t len, char c)
 		return (NULL);
 	i = 0;
 	while (i < words + 1)
-		s[i++] = malloc((len + 1) * sizeof(char));
+	{
+		s[i] = malloc((len + 1) * sizeof(char));
+		if (!s[i])
+		{
+			i--;
+			while (i >= 0)
+				free(s[i--]);
+			free(s);
+			return (NULL);
+		}
+		i++;
+	}
 	return (s);
 }
 
@@ -62,10 +75,6 @@ char	**mem_assign(const char *str, size_t words, size_t len, char c)
 	while (j <= len)
 		s[words][j++] = '\0';
 	return (s);
-}
-
-void	free(void)
-{
 }
 
 char	**ft_split(const char *s, char c)

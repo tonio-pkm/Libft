@@ -1,37 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 16:18:13 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 20:23:21 by antgarci         ###   ########.fr       */
+/*   Created: 2026/04/27 18:06:20 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/27 18:07:48 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stddef.h>
-#include<stdlib.h>
-
-char	*ft_substr(const char *s, unsigned int start, size_t len)
+void	ft_putstr_fd(char *s, int fd)
 {
 	size_t	i;
-	char	*substr;
 
-	substr = malloc(len * sizeof(char));
-	if (!substr)
-		return (NULL);
 	i = 0;
-	while (i < len)
-		substr[i++] = s[start++];
-	return (substr);
-}
-/*
-int	main(void)
-{
-	#include <stdio.h>
-	char	s[] = "123456789";
+	while (s[i])
+		write (fd, s[i++], 1);
 
-	printf("%s", ft_substr(s, 3, 4));
 }
-*/
