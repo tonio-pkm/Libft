@@ -6,13 +6,19 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 19:43:08 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 20:35:20 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 15:34:41 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 
 #define LIBFT_H
+
+typedef struct	s_list
+{
+	void		*content;
+	struct s_list	*next;
+}			t_list;
 
 int	ft_isalpha(int c);
 
