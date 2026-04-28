@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 12:22:29 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/23 14:23:15 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:13:55 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stddef.h>
+
 #include <stdlib.h>
 
 int	can_trim(const char *str, char c)

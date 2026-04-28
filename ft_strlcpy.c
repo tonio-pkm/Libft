@@ -3,24 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 16:08:20 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/20 16:16:39 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:14:03 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlcpy(char *dst, const char *src, size_t size)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	int	counter;
+    size_t	i;
 
-	counter = 0;
-	while (size - 1 > 0)
-	{
-		dst[counter] = src[counter];
-		counter++;
-		size--;
-	}
-	dst[counter] = '\0';
-	return (counter);
+    i = 0;
+    if (size > 0)
+    {
+        while (src[i] && i < size - 1)
+        {
+            dst[i] = src[i];
+            i++;
+        }
+        dst[i] = '\0';
+    }
+    i = 0;
+    while (src[i])
+        i++;
+    return (i);
 }

@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:24:58 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/22 14:06:06 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:11:54 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<stdlib.h>
 #include <stddef.h>
-#include <stdint.h>
 
 char	*ft_strdup(const char *s)
 {

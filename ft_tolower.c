@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:58:34 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/21 17:58:53 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 20:21:35 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_toupper(int c)
+int     ft_tolower(int c)
 {
         if (c >= 'A' && c <= 'Z')
                 return (c + 32);

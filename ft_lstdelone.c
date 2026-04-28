@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 17:57:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 19:21:11 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:49:59 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_lstdelone(t_list *lst, void (*del)(void*))
+void    ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	t_list	*current;
-	
-	current->next = 
-	lst->content = del(lst->content);
-	free(lst);
+    if (!lst)
+        return ;
+    del(lst->content);
+    free(lst);
 }

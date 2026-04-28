@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/27 17:06:43 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 17:45:46 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:05:33 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {
@@ -24,7 +26,10 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 		return (NULL);
 	i = 0;
 	while (i < s_len)
-		str[i++] = f(i, s[i]);
+	{
+		str[i] = f(i, s[i]);
+		i++;
+	}
 	str[i] = '\0';
-	return (str)
+	return (str);
 }

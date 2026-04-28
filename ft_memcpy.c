@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 15:34:14 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/21 15:23:18 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 20:17:17 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,10 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	i = 0;
 	if (!dest && !src)
 		return (0);
-	while (i++ < n)
+	while (i < n)
+	{
 		ptrd[i] = ptrs[i];
+		i++;
+	}
 	return (dest);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 15:38:02 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/21 15:52:58 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 20:20:55 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	while (i < n)
 	{
 		if (str[i] == (unsigned char)c)
-			return (str[i]);
+			return (&str[i]);
 		i++;
 	}
 	return(NULL);
 }
-int     main(void)
+/*int     main(void)
 {
         #include <stdio.h>
         char    s[] = "123456789";
@@ -35,4 +35,4 @@ int     main(void)
         ft_memchr(s, 4, 9);
 
         printf("%s",s);
-}
+}*/

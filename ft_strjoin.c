@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 16:30:46 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/22 16:48:47 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 21:14:07 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ char	*ft_strjoin(const char *s1, const char *s2)
 		return (NULL);
 	i = 0;
 	while (s1[i])
-		str[i++] = s1[i];
+		str[i] = s1[i++];
 	j = 0;
 	while (s2[j])
 		str[j + i] = s2[j++];
