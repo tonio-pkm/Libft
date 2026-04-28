@@ -3,19 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:40:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/22 13:24:36 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/28 00:10:21 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib>
-#include <stddef>
-#include <stdint>
+
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdint.h>
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	size_t	i;
-	char	*str;
+	unsigned char	*str;
 
 	i = 0;
 	if (nmemb == 0 || size == 0)

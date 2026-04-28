@@ -3,18 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 15:29:24 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/21 11:56:14 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/27 23:32:22 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_bzero(char *str, int n)
+void	ft_bzero(void *str, size_t n)
 {
 	int	i;
+	unsigned char	*ptr;
 
+	ptr = (unsigned char *)str;
 	i = 0;
 	while (i < n)
-		str[i++] = '\0';
+		ptr[i++] = '\0';
 }
