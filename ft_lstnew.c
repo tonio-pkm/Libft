@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 15:41:00 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 19:02:45 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 20:37:53 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ t_list	*ft_lstnew(void *content)
 	if (!n1)
 		return (NULL);
 	n1->content = content;
-	n->next = NULL;
+	n1->next = NULL;
 	return (n1);
 }

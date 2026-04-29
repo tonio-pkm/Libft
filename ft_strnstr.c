@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:00:49 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 19:15:19 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 22:48:39 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 
 	j = 0;
 	i = 0;
-	if (!little[i])
+	if (!little[0])
 		return ((char *)big);
 	while (i < len && big[i])
 	{

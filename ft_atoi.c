@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 18:54:15 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 20:03:13 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 21:52:13 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stddef.h>
-int     ft_atoi(char *str)
+
+int     ft_atoi(const char *str)
 {
         int     i;
         int     is_neg;

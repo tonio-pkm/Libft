@@ -3,39 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:10:57 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 19:11:12 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 21:52:53 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+size_t	ft_strlen(const char *s);
+
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+
 char	*ft_strjoin(const char *s1, const char *s2)
 {
-	size_t	i;
-	size_t	j;
-	size_t	total_len;
 	char	*str;
+	size_t	len;
 
-	j = 0;
-	i = 0;
-	while (s1[i])
-		i++;
-	total_len = i;
-	while (s2[j])
-		j++;
-	total_len += j + 1;
-	str = malloc(total_len * sizeof(char));
+	if (!s1 || !s2)
+		return (NULL);
+	len = ft_strlen(s1) + ft_strlen(s2) + 1;
+	str = malloc(len * sizeof(char));
 	if (!str)
 		return (NULL);
-	i = 0;
-	while (s1[i])
-		str[i] = s1[i++];
-	j = 0;
-	while (s2[j])
-		str[j + i] = s2[j++];
-	str[total_len - 1] = '\0';
+	ft_strlcpy(str, s1, len);
+	ft_strlcat(str, s2, len);
 	return (str);
 }
