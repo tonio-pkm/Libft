@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 16:18:13 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:14:01 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:17:26 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:17:51 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include<stddef.h>
 #include<stdlib.h>
 

@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 17:30:29 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 20:19:33 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:04:16 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:04:30 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

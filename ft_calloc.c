@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 12:40:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 00:10:21 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 18:55:33 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 18:55:54 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdint.h>
+
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	size_t	i;

@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 15:38:02 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 20:20:55 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:04:37 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:04:39 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+#include "libft.h"
 #include <stddef.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)

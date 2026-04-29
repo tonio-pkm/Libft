@@ -3,14 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/23 12:22:29 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:13:55 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:16:17 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:17:12 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
+
+size_t 	ft_strlen(const char *s);
 
 int	can_trim(const char *str, char c)
 {
@@ -24,16 +27,6 @@ int	can_trim(const char *str, char c)
 		i++;
 	}
 	return (0);
-}
-
-size_t	ft_strlen(const char *s)
-{
-	size_t	len;
-
-	len = 0;
-	while (s[len])
-		len++;
-	return (len);
 }
 
 char	*set_mem(const char *s, size_t i, size_t j)

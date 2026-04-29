@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 16:30:46 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:14:07 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:10:57 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:11:12 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {

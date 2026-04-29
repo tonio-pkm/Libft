@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 15:29:24 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 23:32:22 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 18:55:02 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 18:55:20 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 void	ft_bzero(void *str, size_t n)
 {
 	int	i;

@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/27 17:06:43 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:05:33 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:12:52 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:13:16 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))

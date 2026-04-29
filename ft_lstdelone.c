@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/28 17:57:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:49:59 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 14:41:48 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:00:52 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void    ft_lstdelone(t_list *lst, void (*del)(void *))
 {

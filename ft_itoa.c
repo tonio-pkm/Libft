@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/24 13:42:09 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 23:49:49 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 18:58:22 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 18:58:56 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stdlib.h>
 #include <limits.h>
 

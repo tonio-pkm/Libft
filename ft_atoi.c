@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/22 12:30:34 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/27 23:27:03 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 18:54:15 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 20:03:13 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+#include <stddef.h>
 int     ft_atoi(char *str)
 {
         int     i;
@@ -33,3 +35,13 @@ int     ft_atoi(char *str)
                 num = -num;
         return (num);
 }
+
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "";
+
+	printf("%d", ft_atoi(s));
+}
+*/

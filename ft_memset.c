@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 15:18:15 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 20:13:07 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:06:33 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:06:46 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 void	*ft_memset(void *str, int c, size_t n)

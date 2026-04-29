@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/23 14:23:40 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 00:31:39 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:08:38 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:09:04 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 #include <stdlib.h>
 

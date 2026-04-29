@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/27 18:40:08 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:50:01 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:08:07 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:08:26 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
 #include <limits.h>
 

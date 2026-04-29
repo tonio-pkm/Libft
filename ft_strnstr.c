@@ -6,10 +6,11 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:00:49 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/22 12:30:22 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 19:15:19 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)

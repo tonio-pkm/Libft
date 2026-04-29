@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/21 12:09:50 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 20:17:18 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/29 19:05:24 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/29 19:06:08 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)

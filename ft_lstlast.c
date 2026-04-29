@@ -6,9 +6,11 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 16:54:53 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 17:19:05 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/29 19:01:37 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 t_list	*ft_lstlast(t_list *lst)
 {
