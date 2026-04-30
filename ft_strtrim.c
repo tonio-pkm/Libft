@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:16:17 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:18:37 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/30 14:09:23 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/30 14:09:45 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-size_t 	ft_strlen(const char *s);
+size_t	ft_strlen(const char *s);
 
-char *ft_strdup(const char *s1);
+char	*ft_strdup(const char *s1);
 
 int	can_trim(const char *str, char c)
 {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/27 18:08:41 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/28 21:50:02 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/30 13:38:48 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/30 13:56:59 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

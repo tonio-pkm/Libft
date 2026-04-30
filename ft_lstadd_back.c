@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/28 17:19:20 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 20:44:36 by codespace        ###   ########.fr       */
+/*   Created: 2026/04/30 14:03:31 by antgarci          #+#    #+#             */
+/*   Updated: 2026/04/30 14:03:55 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*current;
+
 	if (lst == NULL || new == NULL)
 		return ;
 	if (*lst == NULL)

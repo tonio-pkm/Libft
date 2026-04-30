@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:09:51 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 19:10:08 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/04/30 14:04:21 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strdup(const char *s)
 	s_size = i + 1;
 	str = malloc(s_size * sizeof(char));
 	if (!str)
-		return(NULL);
+		return (NULL);
 	i = 0;
 	while (i < s_size)
 	{
@@ -35,4 +35,3 @@ char	*ft_strdup(const char *s)
 	}
 	return (str);
 }
-
