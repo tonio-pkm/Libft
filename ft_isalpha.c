@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 11:44:50 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:43:37 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/04 16:42:40 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/04 18:43:55 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+/*
+int main(void)
+{
+  #include <stdio.h>
+  int c;
+
+  c = 10;
+  printf("%d", ft_isalpha(c));
+}
+*/
