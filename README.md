@@ -58,8 +58,8 @@
 
 | Function | Description |
 | -------- |:-----------:|
-| 🟢isalpha <div id= 'isalpha' /> | Checks for an alphabetic character |
-| 🟢isdigit <div id= 'isdigit' /> | Checks for a numeric character |
+| 🟢[isalpha](https://github.com/tonio-pkm/Libft/blob/main/ft_isalpha.c) <div id= 'isalpha' /> | Checks for an alphabetic character |
+| 🟢[isdigit](https://github.com/tonio-pkm/Libft/blob/main/ft_isdigit.c) <div id= 'isdigit' /> | Checks for a numeric character |
 | 🟢isalnum <div id= 'isalnum' /> | Checks for an alphanumeric character |
 | 🟢isascii <div id= 'isascii' /> | Checks for an ASCII character |
 | 🟢isprint <div id= 'isprint' /> | Checks for a printable character |
