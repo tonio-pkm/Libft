@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 17:33:12 by antgarci          #+#    #+#             */
-/*   Updated: 2026/05/06 17:36:44 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 17:49:45 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
-
+/*
 static void	print(void *node)
 {
 	printf("%s", (char *)node);
@@ -41,3 +41,4 @@ int	main(void)
 	free(l1);
 	free(l2);
 }
+*/
