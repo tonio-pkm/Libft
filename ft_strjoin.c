@@ -3,18 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:10:57 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:52:53 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 13:48:49 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 13:54:08 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *s);
-
-size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {
@@ -31,3 +27,12 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	ft_strlcat(str, s2, len);
 	return (str);
 }
+/*
+int	main(void)
+{
+	char	s[] = "12345";
+	char	d[] = "abcde";
+
+	printf("%s", ft_strjoin(s, d));
+}
+*/

@@ -6,18 +6,13 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:09:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:09:45 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 13:58:34 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
-size_t	ft_strlen(const char *s);
-
-char	*ft_strdup(const char *s1);
-
-int	can_trim(const char *str, char c)
+static int	can_trim(const char *str, char c)
 {
 	size_t	i;
 
@@ -31,7 +26,7 @@ int	can_trim(const char *str, char c)
 	return (0);
 }
 
-char	*set_mem(const char *s, size_t i, size_t j)
+static char	*set_mem(const char *s, size_t i, size_t j)
 {
 	size_t	counter;
 	char	*str;
@@ -61,3 +56,12 @@ char	*ft_strtrim(const char *s1, const char *set)
 		return (ft_strdup(""));
 	return (set_mem(s1, i, j));
 }
+/*
+int	main(void)
+{
+	char	s[] = "abababaHolAabababab";
+	char	set[] = "ab";
+
+	printf("%s", ft_strtrim(s, set));
+}
+*/

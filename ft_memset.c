@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:06:33 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 22:47:37 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 11:28:08 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 11:32:37 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,14 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "abcdefg";
+	int	c = '0';
+	size_t	n = 5;
+
+	printf("%s", (char *)ft_memset(s, c, n));
+}
+*/

@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:13:29 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:01:08 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 12:55:08 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,14 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "abcdefg";
+	char	d[] = "abcdeg";
+	size_t	n = 8;
+
+	printf("%d", ft_strncmp(s, d, n));
+}
+*/

@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:04:37 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:22:22 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 13:53:36 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-
+# include <stddef.h>
+# include <stdio.h>
 typedef	struct	s_list
 {
 	void			*content;

@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:10:00 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:10:44 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 12:51:23 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,13 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (NULL);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "123456";
+	int	c = '4';
+
+	printf("%s", ft_strrchr(s, c));
+}
+*/

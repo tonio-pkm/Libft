@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 13:33:57 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 13:42:16 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 13:17:06 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,11 @@ int	ft_atoi(const char *str)
 		num = -num;
 	return (num);
 }
-
 /*
 int	main(void)
 {
 	#include <stdio.h>
-	char	s[] = "";
+	char	s[] = "42";
 
 	printf("%d", ft_atoi(s));
 }

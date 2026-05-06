@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:07:51 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:08:11 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 12:35:56 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,12 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+/*
+int     main(void)
+{       
+        #include <stdio.h>
+        int     c = 'a';
 
+        printf("%d", ft_toupper(c));
+}
+*/

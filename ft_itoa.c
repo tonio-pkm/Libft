@@ -6,13 +6,11 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 18:58:22 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 13:46:22 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:11:49 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <limits.h>
 
 static int	num_len(long n)
 {
@@ -56,3 +54,11 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
+/*
+int	main(void)
+{
+	int	c = 42;
+
+	printf("%s", ft_itoa(c));
+}
+*/

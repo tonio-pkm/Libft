@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:11:11 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:12:24 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 12:07:21 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,13 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "blublebla";
+	size_t	size = 3;
+
+	printf("%zu", ft_strlcpy(s, (s + 3), size));
+}
+*/

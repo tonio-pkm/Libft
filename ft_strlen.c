@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:12:23 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 19:12:38 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 11:27:37 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,12 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	const char	s[] = "vengo a empeñar a mi hijo";
+
+	printf("%zu", ft_strlen(s));
+}
+*/

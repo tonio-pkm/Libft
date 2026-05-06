@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:05:24 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:47:31 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 11:52:05 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 11:59:12 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,14 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			*d++ = *s++;
 	return (dest);
 }
+/*
+int     main(void)
+{
+        #include <stdio.h>
+        char    s[] = "vampiro";
+        //char    d[] = "esiten";
+        size_t  n = 3;
+
+        printf("%s", (char *)ft_memmove(s, (s + 3), n));
+}
+*/

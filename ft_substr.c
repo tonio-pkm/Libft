@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/30 13:39:54 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 23:22:01 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 13:27:37 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 13:46:15 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

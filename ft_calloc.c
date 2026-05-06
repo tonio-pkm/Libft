@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 18:55:33 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:43:02 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 13:18:03 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 13:23:54 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,13 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		str[i++] = 0;
 	return (str);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	size_t	nmemb = 5;
+	size_t	size = 4;
+	//cambiar 0 por '0'
+	printf("%s", (char *)ft_calloc(nmemb, size));
+}
+*/

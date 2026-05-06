@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 15:03:11 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 18:58:04 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 11:24:10 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	int	c;
+
+	c = 31;
+	printf("%d", ft_isprint(c));
+}
+*/

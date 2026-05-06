@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:08:38 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 13:55:45 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:09:19 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,3 +87,17 @@ char	**ft_split(const char *s, char c)
 	res[words] = NULL;
 	return (res);
 }
+/*
+int	main(void)
+{
+	char	s[] = "create an array of arrays";
+	char	d = ' ';
+	char	**e;
+	int	i;
+
+	e = ft_split(s, d);
+	i = 0;
+	while(e[i])
+		printf("%s\n", e[i++]);
+}
+*/

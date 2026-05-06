@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:04:37 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:49:24 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 12:55:54 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 13:04:13 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,14 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int     main(void)
+/*
+int     main(void)
 {
         #include <stdio.h>
-        char    s[] = "123456789";
+        const char    s[] = "123456789";
+	int	c = '6';
+	size_t	size = 10;
 
-        ft_memchr(s, 4, 9);
-
-        printf("%s",s);
-}*/
+        printf("%s", (char *)ft_memchr(s, c, size));
+}
+*/

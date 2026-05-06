@@ -6,31 +6,28 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 13:59:12 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 13:59:48 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 14:36:56 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstnew(void *content);
-
-void	ft_lstclear(t_list **lst, void (*del)(void *));
-
-void	ft_lstadd_back(t_list **alst, t_list *new);
-
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_start;
 	t_list	*new_node;
-
+	void	*function;
+	
+	function = f(lst->content);
 	if (!lst || !f || !del)
 		return (NULL);
 	new_start = NULL;
 	while (lst)
 	{
-		new_node = ft_lstnew(f(lst->content));
+		new_node = ft_lstnew(function);
 		if (!new_node)
 		{
+			del(function);
 			ft_lstclear(&new_start, del);
 			return (NULL);
 		}

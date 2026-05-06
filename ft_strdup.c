@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 19:09:51 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/30 14:04:21 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 13:26:22 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ char	*ft_strdup(const char *s)
 	}
 	return (str);
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "HEFPN78";
+
+	printf("%s", ft_strdup(s));
+}
+*/

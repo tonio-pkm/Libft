@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 19:04:16 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 22:47:13 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 13:05:06 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 13:07:22 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*
+int     main(void)
+{
+        #include <stdio.h>
+        const char	s[] = "123456789";
+	const char	d[] = "12356789";
+        size_t  size = 10;
+
+        printf("%d", ft_memcmp(s, d, size));
+}
+*/

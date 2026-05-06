@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 18:55:02 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 21:42:11 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 11:33:21 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 11:44:13 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,16 @@ void	ft_bzero(void *str, size_t n)
 	while (i < n)
 		ptr[i++] = '\0';
 }
+/*
+int	main(void)
+{
+	#include <stdio.h>
+	char	s[] = "";
+	size_t	n = 5;
+	int	i = 0;
+
+	ft_bzero(s, n);
+	while (s[i++] == '\0')
+		printf("%s", "nulo\n");
+}
+*/
