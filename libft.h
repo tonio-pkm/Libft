@@ -6,7 +6,7 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 14:04:37 by antgarci          #+#    #+#             */
-/*   Updated: 2026/05/06 13:53:36 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 17:46:51 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,33 +17,28 @@
 # include <unistd.h>
 # include <stddef.h>
 # include <stdio.h>
-typedef	struct	s_list
+
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }				t_list;
 
-typedef struct	s_split_next
-{
-	size_t start;
-	size_t length;
-}				t_split_next;
-
-int	ft_atoi(const char *str);
+int		ft_atoi(const char *str);
 
 void	ft_bzero(void *s, size_t n);
 
 void	*ft_calloc(size_t count, size_t size);
 
-int	ft_isalnum(int c);
+int		ft_isalnum(int c);
 
-int	ft_isalpha(int c);
+int		ft_isalpha(int c);
 
-int	ft_isascii(int c);
+int		ft_isascii(int c);
 
-int	ft_isdigit(int c);
+int		ft_isdigit(int c);
 
-int	ft_isprint(int c);
+int		ft_isprint(int c);
 
 char	*ft_itoa(int n);
 
@@ -51,7 +46,7 @@ void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 
 void	*ft_memchr(const void *s, int c, size_t n);
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 
@@ -85,7 +80,7 @@ size_t	ft_strlen(const char *s);
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 
@@ -95,13 +90,13 @@ char	*ft_strtrim(char const *s1, char const *set);
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 
-int	ft_tolower(int c);
+int		ft_tolower(int c);
 
-int	ft_toupper(int c);
+int		ft_toupper(int c);
 
 t_list	*ft_lstnew(void *content);
 
-int	ft_lstsize(t_list *lst);
+int		ft_lstsize(t_list *lst);
 
 t_list	*ft_lstlast(t_list *lst);
 

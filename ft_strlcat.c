@@ -6,11 +6,12 @@
 /*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 13:39:07 by antgarci          #+#    #+#             */
-/*   Updated: 2026/05/06 12:32:44 by antgarci         ###   ########.fr       */
+/*   Updated: 2026/05/06 17:41:27 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	dst_len;

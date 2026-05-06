@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 14:49:25 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 20:57:39 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 17:33:12 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 17:36:44 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,23 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		f(lst->content);
 		lst = lst->next;
 	}
+}
+
+static void	print(void *node)
+{
+	printf("%s", (char *)node);
+}
+
+int	main(void)
+{
+	t_list	*l1;
+	t_list	*l2;
+
+	l1 = ft_lstnew("one");
+	l2 = ft_lstnew("two");
+	l1->next = l2;
+	l2->next = NULL;
+	ft_lstiter(l1, print_node);
+	free(l1);
+	free(l2);
 }

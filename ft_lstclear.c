@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: antgarci <antgarci@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/29 14:42:32 by antgarci          #+#    #+#             */
-/*   Updated: 2026/04/29 20:53:12 by codespace        ###   ########.fr       */
+/*   Created: 2026/05/06 16:45:16 by antgarci          #+#    #+#             */
+/*   Updated: 2026/05/06 17:32:56 by antgarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,19 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	}
 	*lst = NULL;
 }
+/*
+static void	del(void *node)
+{
+	free(node);
+}
+int	main(void)
+{
+	t_list	*l1 = ft_lstnew("one");
+	t_list	*l2 = ft_lstnew("two");
+
+	l1->next = l2;
+	l2->next = NULL;
+	ft_lstclear(&l1, del);
+	printf("%s", (char *)l1);
+}
+*/
